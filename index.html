@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<!-- Mirrored from ethereumvault.finance/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Aug 2021 09:59:39 GMT -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta name="description" content="Ethereum Vault is a first in class auto USDC reflectionary token.
+              $eVAULT’s vision is to reward HOLDers in USDC for simply holding, and auto delivering your dividends
+              directly to your wallet.
+              There is a 12% tax on all transactions. 6% is allocated to holder passive income, and 6% will be used to
+              cover project operations." />
+  <meta name="author" content="EthereumVault" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 ,minimum-scale=1.0" />
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <title>
+    EthereumVault | Earn Auto USDC Rewards
+  </title>
+
+  <meta name="twitter:site" content="@EthereumVault">
+  <meta name="twitter:title" content="EthereumVault | Earn Auto USDC Rewards">
+  <meta name="twitter:description" content="Ethereum Vault is a first in class auto USDC reflectionary token.
+              $eVAULT’s vision is to reward HOLDers in USDC for simply holding, and auto delivering your dividends
+              directly to your wallet.
+              There is a 12% tax on all transactions. 10% is allocated to holder passive income, and 2% will be used to
+              cover project operations.">
+  <meta name="twitter:creator" content="@EthereumVault">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="EthereumVault | Earn Auto USDC Rewards" />
+  <meta property="og:type" content="bsc coin" />
+  <meta property="og:description" content="Ethereum Vault is a first in class auto USDC reflectionary token.
+              $eVAULT’s vision is to reward HOLDers in USDC for simply holding, and auto delivering your dividends
+              directly to your wallet.
+              There is a 12% tax on all transactions. 10% is allocated to holder passive income, and 2% will be used to
+              cover project operations." />
+
+  <meta property="og:image:width" content="180" />
+
+  <meta property="og:image:height" content="110" />
+
+
+
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="images/icons/logo.png" type="image/x-icon" />
+  <!-- Goole Font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
+  <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/assets/bootstrap.min.css" />
+  <!-- Font awsome CSS -->
+  <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- popup-->
+  <link rel="stylesheet" href="css/assets/magnific-popup.css" />
+  <link rel="stylesheet" href="css/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="css/assets/owl.theme.css" />
+  <link rel="stylesheet" href="css/assets/jquery.countdown.css" />
+  <link rel="stylesheet" href="css/assets/animate.css" />
+  <!-- preloader css-->
+  <link rel="stylesheet" href="css/assets/preloader.css" />
+  <!-- main style-->
+  <link rel="stylesheet" href="css/style1.html">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/cryptonio.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+</head>
+<style>
+  .goog-te-gadget {
+    height: 36px !important;
+    overflow: hidden !important;
+    margin-top: -5px;
+  }
+
+  .goog-te-combo {
+    /* background: linear-gradient(to left, #f879b6 0%, #9982ed 100%); */
+    color: black;
+    text-align-last: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 40px;
+    outline: none;
+    font-family: bold;
+  }
+
+  .goog-te-combo option {
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: linear-gradient(to left, #f879b6 0%, #9982ed 100%);
+
+  }
+
+  #loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #020c59;
+
+    z-index: 9999;
+  }
+
+  .loader_animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+</style>
+
+<body class="body_06" onload="deutsch()">
+  <!-- Preloader -->
+  <!-- <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div> -->
+
+  <!--<div id="loading">-->
+    <!--<div class="loader_animation">
+      <script src="../unpkg.com/%40lottiefiles/lottie-player%401.1.1/dist/lottie-player.js"></script>
+      <lottie-player src="preloader.json" background="transparent.html" speed="1" style="width: 250px; height: 250px;" loop
+        autoplay></lottie-player>-->
+
+    </div>
+  </div>
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
+
+  <header id="header-06" class="header">
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-light bg-faded cripto_nav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars" style="color:white"></i>
+        </button>
+        <a class="navbar-brand" data-scroll href="index-2.html" style="display: flex;align-items: center;"><img
+            src="images/icons/web-logo-01.png" alt="logo" style="width:160px;" /></a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a data-scroll href="#header-06" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a data-scroll href="#best_feature_06" class="nav-link">Tokenomics</a>
+            </li>
+            <li class="nav-item">
+              <a data-scroll href="#about_cryptonic_06" class="nav-link">Contract</a>
+            </li>
+            <li class="nav-item">
+              <a data-scroll href="#roadmap_06" class="nav-link">Roadmap</a>
+            </li>
+            <li class="nav-item">
+              <a data-scroll href="#faq-area-06" class="nav-link">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a data-scroll href="https://etherscan.io/" class="nav-link">Blockchain</a>
+            </li>
+
+            <li class="nav-item change_language" style="display:flex; align-items:center; justify-content:center;">
+            </li>
+          </ul>
+        </div>
+        <div class="language">
+          <a target="_blank" onclick="window.location='https://app.uniswap.org/swap?chain=base&inputCurrency=NATIVE&outputCurrency=0x7771af168cad85513bbcd76ef3d14e4fa3dfe45e'" href="#" class="token" style="font-size:14px">Buy Now</a>
+        </div>
+      </div>
+    </nav>
+    <script type="text/javascript" src="../translate.google.com/translate_a/element.html">
+    </script>
+
+    <!-- END NAVBAR -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-6">
+          <div class="intro-text">
+            <h1>EthereumVault is a first in class auto USDC reflectionary token.</h1>
+            <p>
+              $eVAULT’s vision is to reward HOLDers in USDC for simply holding, and auto delivering your dividends
+              directly to your wallet.<br />
+              There is a 12% tax on all transactions. 10% is allocated to holder passive income, and 2% will be used to
+              cover project operations.
+            </p>
+            <div class="btn_video_wrapper">
+              <a href="https://app.uniswap.org/swap?chain=base&inputCurrency=NATIVE&outputCurrency=0x7771af168cad85513bbcd76ef3d14e4fa3dfe45e" target="_blank" class="btn btn-default btn-default-style">Buy Now</a>
+              <div class="video_wrapper">
+                <a href="https://dexscreener.com/base/0xfeeb3a1d06ba446bf791e035277004d11fc293ec" class="btn btn-default btn-default-style">Live Chart</a>
+              </div>
+            </div>
+            <!-- <div class="countdown_time">
+              <h3>ICO End in</h3>
+              <div class="clock-countdown">
+                <div class="site-config" data-date="12/11/2020 00:00:00" data-date-timezone="+0"></div>
+                <div class="coundown-timer d-flex justify-content-center">
+                  <div class="single-counter d-flex flex-column">
+                    <h4>
+                      <span class="days count-time gradient-color">00</span>
+                    </h4>
+                    <span class="normal">Days</span>
+                  </div>
+                  <div class="single-counter d-flex flex-column">
+                    <h4>
+                      <span class="hours count-time gradient-color">00</span>
+                    </h4>
+                    <span class="normal">Hours</span>
+                  </div>
+                  <div class="single-counter d-flex flex-column">
+                    <h4>
+                      <span class="minutes count-time gradient-color">00</span>
+                    </h4>
+                    <span class="normal">Minutes</span>
+                  </div>
+                  <div class="single-counter d-flex flex-column">
+                    <h4>
+                      <span class="seconds count-time gradient-color">00</span>
+                    </h4>
+                    <span class="normal">Seconds</span>
+                  </div>
+                </div>
+              </div>
+              <div class="count-time_btn">
+                <a href="#" title="" class="gradient-color"><span>Sign up & Join our sale List</span></a>
+              </div>
+            </div> -->
+
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 img-wrapper">
+          <div class="intro-img">
+            <div class="bounce_wrapper">
+              <img src="images/header-06.png" alt="" />
+              <div class="shape-1">
+                <div class="box bounce-1">
+                  <img src="images/bounce/header1_b.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="shape1 header-shape"><img src="images/shape/home_6/header6_shape_1.png" alt="" /></span>
+    <span class="shape2 header-shape"><img src="images/shape/home_6/header6_shape_2.png" alt="" /></span>
+    <span class="shape3 header-shape"><img src="images/shape/home_6/header6_shape_3.png" alt="" /></span>
+    <span class="shape4 header-shape"><img src="images/shape/home_6/header6_shape_4.png" alt="" /></span>
+    <span class="shape5 header-shape"><img src="images/shape/home_6/header6_shape_5.png" alt="" /></span>
+    <span class="shape6 header-shape"><img src="images/shape/home_6/header6_shape_6.png" alt="" /></span>
+
+    <span class="bubble1 header-shape"><img src="images/particals_icon/fixed1.png" alt="" /></span>
+    <span class="bubble2 header-shape"><img src="images/particals_icon/fixed1.png" alt="" /></span>
+    <span class="bubble3 header-shape"><img src="images/particals_icon/fixed2.png" alt="" /></span>
+    <span class="bubble4 header-shape"><img src="images/particals_icon/fixed4.png" alt="" /></span>
+
+    <div id="particles1-js" class="particles">
+      <canvas class="particles-js-canvas-el" width="1349" height="1242" style="width: 100%; height: 100%"></canvas>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <section id="best_feature_06">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="sub-title">
+            <h6>Features</h6>
+            <h2>Tokenomics</h2>
+            <p>
+              Our tokenomics are designed to reward holders in a new revolutionary way to achieve passive income in the DeFi space
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row feature_items d-flex justify-content-center">
+        <div class="col-sm-12 col-md-6 col-lg-4 single-wrapper" style="margin-top:20px">
+          <div class="single-items wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s" style="height:420px">
+            <h3>100% Liquidity Locked
+            </h3>
+            <img src="images/icons/webicons-01.png" alt="" />
+            <p>
+              The team has locked 100% of Liquidity on Uncricypt making this project unruggable
+            </p>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 single-wrapper" style="margin-top:20px">
+          <div class="single-items wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s" style="height:420px">
+            <h3>6% Distributed To Holders</h3>
+            <img src="images/icons/webicons-02.png" alt="" />
+            <p>
+              $eVAULT is unique in the fact that it auto distributes rewards to holders in USDC dividends encouraging long term hodling.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 single-wrapper" style="margin-top:20px">
+          <div class="single-items wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s" style="height:420px">
+            <h3>6% Operations</h3>
+            <img src="images/icons/webicons-03.png" alt="" />
+            <p>
+              6% of transactions will be used towards marketing, listings, charity donations, and to pay our dev team, helping to ensure the long term success of $eVAULT
+            </p>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 single-wrapper" style="margin-top:20px">
+          <div class="single-items wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s" style="height:420px">
+            <h3>Fair Launch</h3>
+            <img src="images/icons/webicons-04.png" alt="" />
+            <p>
+              $eVAULT held a small public liquidity generation event. Those who took part paid 2x more than initial
+              launch price.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="shape1 header-shape"><img src="images/shape/home_6/feature-1.png" alt="" /></span>
+    <div id="particles4-js" class="particles"></div>
+  </section>
+
+
+  <section id="welcome_cryptonic_06">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="sub-title">
+            <h2 class="wow fadeInUp" data-animate="fadeInUp" data-delay=".1s">
+              What makes EthereumVault Safe?
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-10 mx-auto">
+          <div class="about_cryptonic-content">
+            <img src="images/welcome-6.png" alt="" class="wow ZoomInUp" data-animate="ZoomInUp" data-delay=".3s" />
+            <p class="wow fadeInUp" data-animate="fadeInUp" data-delay="0.3s">
+              EthereumVault is a cryptocurrency that works for you, generating a passive income in USDC for you. We
+              offer complete transparency and the latest security to all our holders. Additionally, the EthereumVault
+              Liquidity Pool is locked.
+            </p>
+            <a href="https://legacy.uncx.network/amm/uni-v2/pair/0x9Ec9367b8c4Dd45ec8E7b800b1F719251053AD60" class="btn btn-default btn-default-style wow fadeInUp" data-animate="fadeInUp"
+              data-delay="0.4s">Liquidity Pool Locked</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="shape1 header-shape"><img src="images/shape/home_6/wel-map.png" alt="" /></span>
+    <span class="bubble1 header-shape"><img src="images/particals_icon/fixed1.png" alt="" /></span>
+    <span class="bubble2 header-shape"><img src="images/particals_icon/fixed1.png" alt="" /></span>
+    <div id="particles2-js" class="particles">
+      <canvas class="particles-js-canvas-el" width="1349" height="806" style="width: 100%; height: 100%"></canvas>
+    </div>
+  </section>
+  <!-- End welcome_cryptonic -->
+
+  <section id="about_cryptonic_06">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-7 col-lg-5 padding-none">
+          <div class="about_cryptonic-content">
+            <h2 class="wow fadeInUp" data-animate="fadeInUp" data-delay="0.2s">
+              Smart Contract Verification
+            </h2>
+            <p class="wow fadeInUp" data-animate="fadeInUp" data-delay="0.3s">
+              EthereumVault smart contract is validated and verified by a third-party certification company.
+            </p>
+
+
+            <a href="https://basescan.org/token/0x7771Af168CAD85513bbcd76ef3d14E4Fa3DFE45E" class="btn btn-default btn-default-style wow fadeInUp" data-animate="fadeInUp" data-delay="0.5s">
+              Smart Contract Verified</a>
+            <a href="#" class="btn btn-default btn-default-style wow fadeInUp" data-animate="fadeInUp" data-delay="0.5s">
+              Audit (Coming Soon)</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-5 col-lg-7">
+          <div class="about-img">
+            <div class="img-wrapper">
+              <img src="images/webimg-01.png" alt="" class="wow fadeInUp" data-animate="fadeInUp" data-delay=".3s" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="shape1 header-shape"><img src="images/shape/home_6/about-light-1.png" alt="" /></span>
+    <span class="shape2 header-shape"><img src="images/shape/home_6/about-light-2.png" alt="" /></span>
+    <span class="bubble1 header-shape"><img src="images/particals_icon/fixed1.png" alt="" /></span>
+    <span class="bubble2 header-shape"><img src="images/particals_icon/fixed2.png" alt="" /></span>
+    <span class="bubble3 header-shape"><img src="images/particals_icon/fixed3.png" alt="" /></span>
+    <div id="particles3-js" class="particles"></div>
+  </section>
+  <!-- End about_cryptonic -->
+
+  <!-- End best_feature -->
+
+  <section id="token_sale_06">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="sub-title">
+            <h6 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+              Token
+            </h6>
+            <h2 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
+              Token Sale
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row pricing_items d-flex justify-content-center">
+        <div class="col-sm-12 col-md-6 col-lg-3 single-wrapper wow fadeInUp" data-wow-duration="2s"
+          data-wow-delay=".2s">
+          <div class="pricing_single">
+            <div class="offer_price">
+              <h4 style="color:black">
+                2X Launch Price
+              </h4>
+            </div>
+            <div class="offer_details">
+              <h3>21 October 2024</h3>
+              <p>Softcap - 1 ETH</p>
+              <p>Hardcap - 2 ETH</p>
+            </div>
+            <div class="sale">
+              <a href="#" title="">Pre sale</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <span class="shape1 header-shape"><img src="images/shape/home_6/token_sale.png" alt="" /></span>
+    <span class="shape2 header-shape"><img src="images/shape/home_6/token_sale_1.png" alt="" /></span>
+    <span class="bubble1 header-shape"><img src="images/particals_icon/fixed1.png" alt="" /></span>
+    <span class="bubble2 header-shape"><img src="images/particals_icon/fixed1.png" alt="" /></span>
+    <span class="bubble4 header-shape"><img src="images/particals_icon/fixed3.png" alt="" /></span>
+    <div id="particles5-js" class="particles"></div>
+  </section>
+
+  <!-- End token_sale -->
+
+  <section id="token_distribution_06">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="sub-title">
+            <h6 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+              Token Details
+            </h6>
+            <h2 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
+              Token Distribution
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="display: flex;justify-content:center">
+        <div class="
+              col-sm-12 col-md-6 col-lg-6
+              distribution_single_item
+              wow
+              fadeInUp
+            " data-wow-duration="2s" data-wow-delay=".2s">
+          <div class="distribution_single">
+            <div class="distribution_wrapper">
+              <div class="distribution_details">
+                <h3>Token</h3>
+                <div class="token_shape">
+                  <span class="shape1 header-shape"><img src="images/shape/home_6/token_1.png" alt="" /></span>
+                  <span class="shape2 header-shape"><img src="images/shape/home_6/token_2.png" alt="" /></span>
+                  <span class="shape3 header-shape"><img src="images/shape/home_6/token_3.png" alt="" /></span>
+                  <span class="shape4 header-shape"><img src="images/shape/home_6/token_4.png" alt="" /></span>
+                  <span class="shape5 header-shape"><img src="images/shape/home_6/token_5.png" alt="" /></span>
+                </div>
+              </div>
+              <ul class="details_content">
+                <li class="details details_1">
+                  <p>Community Tokens</p>
+                  <div class="details_caption">
+                    <span>95%</span>
+                  </div>
+                </li>
+                <li class="details details_5">
+                  <div class="details_caption">
+                    <span>5%</span>
+                  </div>
+                  <p>Presale Tokens</p>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="
+              col-sm-12 col-md-6 col-lg-6
+              distribution_single_item
+              wow
+              fadeInUp
+            " data-wow-duration="2s" data-wow-delay=".3s">
+          <div class="distribution_single">
+            <div class="distribution_wrapper">
+              <div class="distribution_details">
+                <h3>Sale</h3>
+                <div class="token_shape">
+                  <span class="shape1 header-shape"><img src="images/shape/home_6/token_1.png" alt="" /></span>
+                  <span class="shape2 header-shape"><img src="images/shape/home_6/token_2.png" alt="" /></span>
+                  <span class="shape3 header-shape"><img src="images/shape/home_6/token_3.png" alt="" /></span>
+                  <span class="shape4 header-shape"><img src="images/shape/home_6/token_4.png" alt="" /></span>
+                  <span class="shape5 header-shape"><img src="images/shape/home_6/token_5.png" alt="" /></span>
+                </div>
+              </div>
+              <ul class="details_content">
+                <li class="details details_1">
+                  <p>Community</p>
+                  <div class="details_caption">
+                    <span>40%</span>
+                  </div>
+                </li>
+                <li class="details details_3">
+                  <p>Reserve Fund</p>
+                  <div class="details_caption">
+                    <span>20%</span>
+                  </div>
+                </li>
+                <li class="details details_5">
+                  <div class="details_caption">
+                    <span>5%</span>
+                  </div>
+                  <p>Team Advisor</p>
+                </li>
+                <li class="details details_6">
+                  <div class="details_caption">
+                    <span>15%</span>
+                  </div>
+                  <p>Sold globaly</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div id="particles6-js" class="particles"></div>
+  </section>
+  <!-- End token_distribution -->
+
+
+
+  <section id="roadmap_06" class="roadmap body_06" style="background:#0e044d">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="sub-title">
+            <h2 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">EthereumVault Roadmap</h2>
+            <p class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s"></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 roadmap-area">
+          <div class="roadmap-tree">
+
+            <div class="row roadmap-cloumn pn_reverse  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+              <div class="roadmap-marker"></div>
+              <div class="col-sm-12 col-md-12 col-lg-6 roadmap-desc  roadmap-dese-left">
+                <div class="doc-wraper">
+                  <p>• Launch On Uniswap<br /> <br />
+                    • CG and CMC Listings<br /> <br />
+                    • 2000 holders<br /><br />
+                    • Airdrops<br /><br />
+                    • Influencer Marketing</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 roadmap-status roadmap-right">
+                <span>Phase 1</span>
+              </div>
+            </div>
+
+            <div class="row roadmap-cloumn wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
+              <div class="roadmap-marker marker-off"></div>
+              <div class="col-sm-12 col-md-12 col-lg-6 roadmap-status roadmap-left">
+                <span>Phase 2</span>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 roadmap-desc roadmap-dese-right">
+                <div class="doc-wraper">
+                  <p>• 10,000 holders<br /><br />
+                    • NFT giveaways<br /><br />
+                    • Continuous airdrops to holders<br /><br />
+                    • Marketing and Advertising</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row roadmap-cloumn pn_reverse  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
+              <div class="roadmap-marker"></div>
+              <div class="col-sm-12 col-md-12 col-lg-6 roadmap-desc roadmap-dese-left">
+                <div class="doc-wraper">
+                  <p>• Advertising Campaign<br /><br />
+
+                    • Additional exchange listings<br /><br />
+
+                    • Wallet/Swap rollout</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 roadmap-status roadmap-right">
+                <span>Phase 3</span>
+              </div>
+            </div>
+
+            <div class="row roadmap-cloumn  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+              <div class="roadmap-marker marker-off"></div>
+              <div class="col-sm-12 col-md-12 col-lg-6 roadmap-status roadmap-left">
+                <span>Phase 4</span>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 roadmap-desc roadmap-dese-right">
+                <div class="doc-wraper">
+                  <p>• 100,000 Holders<br /><br />
+
+                    • Maintain continous growth<br /><br />
+
+                    • First CEX listing</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- End companis_supported -->
+
+
+
+  <section id="faq-area-06" class="faq-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="sub-title">
+            <h2 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+              Frequently Asked Questions
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-5">
+          <div class="faq-img wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+            <img src="images/webimg-02.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-7">
+          <div class="faq-wrapper">
+            <!--Accordion wrapper-->
+            <div class="panel-group accordion-wrapper" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel accordion-single accordion-01 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo">
+                      What cryptocurrencies can I use to purchase?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="card-body accordion-content">
+                    <p>
+                      EthereumVault has liquidity pool on uniswap. ETH can be used to buy EthereumVault.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel accordion-single accordion-02 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
+                <div class="panel-heading active" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      How do I benefit from EthereumVault?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel"
+                  aria-labelledby="headingOne">
+                  <div class="card-body accordion-content">
+                    <p>
+                      EthereumVault holders are entitled to USDC dividend benefits from all the transactions. This
+                      mechanism provides them with a passive income.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel accordion-single accordion-03 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">
+                      Where can I buy EthereumVault?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="card-body accordion-content">
+                    <p>
+                      EthereumVault can be bought on Uniswap currently. In future we will be listing on more exchanges.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel accordion-single accordion-03 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
+                <div class="panel-heading" role="tab" id="headingfour">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefour"
+                      aria-expanded="false" aria-controls="collapsefour">
+                      Is my investment safe with EthereumVault?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="card-body accordion-content">
+                    <p>
+                      Yes, your investment is safe with EthereumVault. The liquidity pool is locked to ensure that there
+                      are no rugpulls.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="particles10-js" class="particles"></div>
+  </section>
+  <!-- End faq-area -->
+
+
+  <!-- End contact -->
+
+  <!-- End subscribe_area -->
+
+  <footer id="footer-06" class="footer">
+    <div class="container">
+      <div class="row footer-btm-wrapper">
+        <div class="col-md-12 col-lg-12">
+          <div class="footer_items">
+            <div class="footer-single-col footer_single_list_1">
+              <h3 class="subtitle_1">
+                &nbsp;<img style="width:340px" src="images/icons/web-logo-01.png" alt="" />
+              </h3>
+              <p>
+                The Content shared on this website is for information purpose only and, thus, should not be considered
+                as financial advice. Trading/Investing is risky and you should never invest more than you can afford to
+                lose. Cryptocurrencies are risky. Never invest more than you can afford to lose. You alone assume the
+                sole responsibility of evaluating the merits and risks associated with the use of any information or
+                other Content on the Site before making any decisions based on such information or other Content.
+              </p>
+              <ul class="social-links list-unstyled ml-auto">
+                <li class="nav-item">
+                  <a href=""><i class="fab fa-telegram"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-single-col footer_single_list_2">
+              <ul class="list-unstyled">
+                <li><a href="#header-06">Home</a></li>
+                <li><a href="#best_feature_06">Tokenomics</a></li>
+                <li><a href="#about_cryptonic_06">Contract</a></li>
+                <li><a href="#roadmap_06">Roadmap</a></li>
+                <li><a href="#faq-area-06">FAQs</a></li>
+                <li><a href="https://basescan.org/token/0x7771Af168CAD85513bbcd76ef3d14E4Fa3DFE45E">Blockchain
+                    Explorer</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="shape1 header-shape"><img src="images/shape/home_6/footer_shape_1.png" alt="" /></span>
+    <span class="shape2 header-shape"><img src="images/shape/home_6/footer_shape_2.png" alt="" /></span>
+    <!-- <span class="shape3 header-shape"><img src="images/shape/home_6/footer_shape_3.png" alt="" /></span> -->
+  </footer>
+  <!-- ./ End Footer Area-->
+  <script>
+    const data123 = document.querySelector(".change_language");
+    const deutsch = () => new google.translate.TranslateElement({ pageLanguage: 'en' }, data123)
+    $(window).load(function () {
+      $(".goog-logo-link").empty();
+      $('.goog-te-gadget').html($('.goog-te-gadget').children());
+    })
+  </script>
+  <!-- JavaScript Files -->
+  <script src="../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/assets/popper.min.js"></script>
+  <script src="js/assets/bootstrap.min.js"></script>
+  <script src="js/assets/owl.carousel.min.js"></script>
+  <script src="js/assets/jquery.sticky.js"></script>
+  <script src="js/assets/isotope.pkgd.min.js"></script>
+  <script src="js/assets/jquery.magnific-popup.min.js"></script>
+  <script src="js/assets/jquery.downCount2.js"></script>
+  <script src="js/assets/jquery.countdown.js"></script>
+  <script src="js/assets/particles.js"></script>
+  <script src="js/assets/app.js"></script>
+  <script src="js/assets/smooth-scroll.js"></script>
+  <script src="js/assets/wow.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="../smtpjs.com/v3/smtp.js">
+  </script>
+  <script>
+    var preloader = document.getElementById('loading');
+    const myFunction23 = setInterval(() => {
+      preloader.style.display = "none";
+    }, 3000)
+  </script>
+</body>
+
+
+<!-- Mirrored from ethereumvault.finance/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Aug 2021 09:59:57 GMT -->
+</html>
